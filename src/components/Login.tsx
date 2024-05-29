@@ -44,7 +44,7 @@ export const Login = () => {
                 const { nombre, correo } = action.payload;
                 return {
                     validando: false,
-                    token: 'ETERRGdfhtrhbdfv545gfdgdfg',
+                    token: 'ETERRG54545dfhtrhbdfv545gfdgdfgHKJHKH',
                     nombre: nombre,
                     correo: correo,
                 }
@@ -61,7 +61,12 @@ export const Login = () => {
                 nombre: 'Viviana',
                 correo: 'vflores@itsqmet.edu.ec'
             }
-        })
+        });
+    }
+
+    //Función acción logout
+    const logout = () => {
+        dispatch({ type: 'logout' });
     }
 
     //hook useReducer
@@ -100,7 +105,9 @@ export const Login = () => {
                     ? <button
                         className="btn btn-primary"
                         onClick={login}>Login</button>
-                    : <button className="btn btn-danger">Logout</button>
+                    : <button 
+                        className="btn btn-danger"
+                        onClick={logout}>Logout</button>
             }
         </div>
     )

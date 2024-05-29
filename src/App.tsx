@@ -8,6 +8,7 @@ import React from 'react'
 //import { ContadorCustomHook } from './components/ContadorCustomHook';
 //import { ComponenteUseEffect } from './components/ComponenteUseEffect';
 import { Login } from './components/Login';
+import { Usuarios } from './components/Usuarios';
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
       {/* <Contador/> */}
       {/* <ContadorCustomHook/> */}
       {/* <ComponenteUseEffect/> */}
-      <Login/>
+      {/* <Login/> */}
+      <Usuarios/>
     </div>
   )
 }
