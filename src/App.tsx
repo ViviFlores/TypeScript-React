@@ -5,8 +5,8 @@ import React from 'react'
 //import { ObjetosLiterales } from './typescript/ObjetosLiterales';
 //import { Funciones } from './typescript/Funciones';
 //import { Contador } from './components/Contador';
-import { ContadorCustomHook } from './components/ContadorCustomHook';
-import { ComponenteUseEffect } from './components/ComponenteUseEffect';
+//import { ContadorCustomHook } from './components/ContadorCustomHook';
+//import { ComponenteUseEffect } from './components/ComponenteUseEffect';
 import { Login } from './components/Login';
 
 const App = () => {
